@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #7e7e7e;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    color: black;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #96f697;
+    height: 550px;
+    text-align: center;
+    line-height: 550px;
+    font-size: 18px;
+}
+
+.portfolio-section {
+    background-color: #ffb2b2;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    background-color: #7e7e7e;
+    width: 519px;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+.image-row {
+    background-color: #ffb2b2;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.image-item {
+    background-color: #7e7e7e;
+    width: 360px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+.large-text {
+    background-color: #ffb2b2;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+}
+
+
+.centered {
+    text-align: center; 
+    margin: 0; 
+}
+
+
+.large-text h1 {
+    margin-bottom: 10px; 
+}
+
+
+.large-text.yellow {
+    background-color: #f6e696;
+}
+
+
+.thin-pink {
+    background-color: #ffb2b2;
+    height: 10px; 
+}
+
+
+.footer {
+    background-color: #3e3e3e;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 18px;
+}
